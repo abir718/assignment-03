@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Assignment 03</title>
+</head>
+<body>
+<header class="bg-gray-100">
+<section class="p-4 lg:p-10">
+    <div class="flex items-center justify-between">
+    <div class="flex gap-1 items-center">
+        <button class="bg-green-400 rounded-full w-6 h-6 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+          </button>
+        <h1 class="font-bold text-2xl">Rinterio</h1>
+    </div>
+    <div class="hidden lg:flex gap-10">
+        <p class="text-l font-medium">Home</p>
+        <p class="text-l text-gray-500">Services</p>
+        <p class="text-l text-gray-500">Portfolio</p>
+        <p class="text-l text-gray-500">Blogs</p>
+        <p class="text-l text-gray-500">Contact Us</p>
+    </div>
+    <div class="lg:flex gap-4 items-center hidden">
+        <button class="bg-white rounded-full p-2 text-gray-700 border border-gray-300 h-9 w-9 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-gray-500">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+          </button>
+          <button class="bg-white rounded-full p-2 text-gray-700 border border-gray-300 h-9 w-9 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-gray-500">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+          </svg>
+          </button>
+          <div class="lg:flex gap-3 items-center bg-green-200 w-[12rem] p-2 rounded-full justify-center hidden">
+            <button class=""><span class="text-xl font-bold">Book Consult</span><i class="fa-solid fa-arrow-up-long ml-2 rotate-45 bg-black rounded-full p-2 text-white size-8"></i></button>
+        </div>
+    </div>
+    <button class="bg-white rounded-full p-2 text-gray-700 border border-gray-300 h-9 w-9 flex items-center justify-center lg:hidden"><i class="fa-solid fa-bars"></i></button>
+    </div>
+    <div class="flex flex-col lg:gap-10 items-center gap-3">
+        <img class="lg:w-1/2 mt-5" src="assets/banner.png" alt="">
+        <h1 class="font-extrabold lg:font-bold  text-2xl lg:text-6xl text-center lg:w-[900px]">A barn house of this design has a striking appearance.</h1>
+        <p class="text-center lg:w-[900px] ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
+            accents, and large windows that flood the space with natural light.</p>
+            <button class="bg-green-200 border-green-700 border-2  p-3 rounded-full flex w-full justify-center lg:w-fit"><span class="text-l font-semibold">View Details</span><i class="fa-solid fa-arrow-up-long ml-2 rotate-45 bg-black rounded-full p-2 text-white w-6 h-6 fa-2xs flex justify-center items-center"></i></button>
+        </div>
+</section>
+</header>
+<main>
+    <section class="bg-gray-200 px-32 py-20">
+        <img class="mb-4" src="assets/Vector.png" alt="">
+    <div class="flex justify-center gap-20">
+        <div class=" flex flex-col justify-between">     
+            <div class="flex gap-3 items-center justify-center bg-white w-40 h-14 rounded-full">
+                <i class="fa-solid fa-arrow-up-long text-black rotate-90"></i>
+                <p class="font-medium text-xl">About Us</p>
+            </div>
+            <h1 class="text-5xl font-extrabold">We design thoughtful,<br>liveable spaces</h1>
+            <p class="text-xl w-[700px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <div class="flex items-center gap-6 rounded-lg bg-white w-fit p-10">
+                <img src="assets/commercial.png" alt="">
+                <div>
+                <h2 class="text-2xl font-bold">Commercial</h2>
+                <p class="text-xl">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-6 rounded-lg bg-white w-fit p-10">
+                <img  src="assets/residential.png" alt="">
+                <div>
+                <h2 class="text-2xl font-bold">Residential</h2>
+                <p class="text-xl">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img class="w-[700px]" src="assets/Rectangle.png" alt="">
+        </div>
+    </div>
+    </section>
+</main>
+</body>
+</html>
